@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First page</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style css.css">
+</head>
+<body>
+	<!--Header-->
+	<header class="header">
+	<div class="container">
+		<h1>Main header Here</h1>
+		<h2>
+			<small>
+				And small sub header
+			</small>
+		</h2>
+		</div>
+	</header>
+	<!--/Header-->
+	<!--nav-->
+	<nav class="page-navigation">
+		<div class="container">
+			<ul>
+				<li><a href="#">Home </a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+			<!--Login form-->
+			<form action="#" class="login">
+			<input type="text"placeholder="Login"required>
+			<input type="password"placeholder="Password"required>
+			<input type="submit"placeholder="Sign in"required>
+			<!--Login form-->
+		</div>
+	</nav>
+	<!--/nav-->
+	<!--main-->
+	<main>
+		<div class="container">
+			<h2 class="collection-title">Image Collection<small>Visualize Quality</small></h2>
+			<div class="collections">
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<img src="images/profile.jpg"alt="List picture"</div>
+						<div class="collection-text">
+							<h3>Lat Element Item</h3>
+							<p>Сотрудники The Intercept тщательно проанализировали документы на предмет информации, способной навредить репутации невинных людей, и будут публиковать их частями. Первый релиз представляет собой 166 документов, датированных 2003 годом. Они охватывают необычайно широкий спектр тем – от серьезных, подробных отчетов о реализуемых АНБ программах слежения до сообщений о поездках и путешествиях сотрудников.</p>
+							<BUTTON>Read more...</BUTTON>
+						</div>
+					</div>
+				</div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<img src="images/profile.jpg"alt="List picture"</div>
+						<div class="collection-text">
+							<h3>Lat Element Item</h3>
+							<p>Сотрудники The Intercept тщательно проанализировали документы на предмет информации, способной навредить репутации невинных людей, и будут публиковать их частями. Первый релиз представляет собой 166 документов, датированных 2003 годом. Они охватывают необычайно широкий спектр тем – от серьезных, подробных отчетов о реализуемых АНБ программах слежения до сообщений о поездках и путешествиях сотрудников.</p>
+							<BUTTON>Read more...</BUTTON>
+						</div>
+					</div>
+				</div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<img src="images/profile.jpg"alt="List picture"</div>
+						<div class="collection-text">
+							<h3>Lat Element Item</h3>
+							<p>Сотрудники The Intercept тщательно проанализировали документы на предмет информации, способной навредить репутации невинных людей, и будут публиковать их частями. Первый релиз представляет собой 166 документов, датированных 2003 годом. Они охватывают необычайно широкий спектр тем – от серьезных, подробных отчетов о реализуемых АНБ программах слежения до сообщений о поездках и путешествиях сотрудников.</p>
+							<BUTTON>Read more...</BUTTON>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2 class="collectio-title">Video Collection<small>Visualize Quality</small></h2>
+			<div class="collections">
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<video controls>
+						<source src="video/movie.mp4"type="video/mp4">
+						<div class="collection-text">
+							<h3>Lat Element Item</h3>
+							<p>тельно проанализировали документы на предмет информации, способной навредить репутации невинных людей, и будут публиковать их частями. Первый релиз представляет собой 166 документов, датированных 2003 годом. Они охватывают необычайно широкий спектр тем – от серьезных, подробных отчетов о реализуемых АНБ программах слежения до сообщений о поездках и путешествиях сотрудников</p>
+							<BUTTON>Read more...</BUTTON>
+						</div>
+					</div>
+				</div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<video controls>
+						<source src="video/movie.mp4"type="video/mp4">
+						<div class="collection-text">
+							<h3>Lat Element Item</h3>
+							<p>тельно проанализировали документы на предмет информации, способной навредить репутации невинных людей, и будут публиковать их частями. Первый релиз представляет собой 166 документов, датированных 2003 годом. Они охватывают необычайно широкий спектр тем – от серьезных, подробных отчетов о реализуемых АНБ программах слежения до сообщений о поездках и путешествиях сотрудников</p>
+							<BUTTON>Read more...</BUTTON>
+						</div>
+					</div>
+				</div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<video controls>
+						<source src="video/movie.mp4"type="video/mp4">
+						<div class="collection-text">
+							<h3>Lat Element Item</h3>
+							<p>тельно проанализировали документы на предмет информации, способной навредить репутации невинных людей, и будут публиковать их частями. Первый релиз представляет собой 166 документов, датированных 2003 годом. Они охватывают необычайно широкий спектр тем – от серьезных, подробных отчетов о реализуемых АНБ программах слежения до сообщений о поездках и путешествиях сотрудников</p>
+							<BUTTON>Read more...</BUTTON>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!--/main-->
+	<!--footer-->
+	<footer class="footer">
+		<div class="container">
+			<p>Copiright Example.com 2016</p>
+		</div>
+	</footer>
+	<!--/footer-->
+	<script src="script/js.js"></script>
+</body>
+</html>
