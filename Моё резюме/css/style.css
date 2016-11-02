@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; /* Нужно для мобильного WebKit */
+  -moz-box-sizing: border-box; /* Нужно для Firefox */
+  box-sizing: border-box;
+}
+/*header*/
+
+.header {
+	background: url(../images/image2.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	color :white;
+}
+.header h1{
+	position: absolute;
+	left: 2%;
+}
+.logo{
+	position: absolute;
+	left: 2%;
+	top: 10%;
+	margin: 10px auto;
+}
+
+.image a{
+	position: absolute;
+	right: 5%;
+	top: 5%;
+}
+
+
+.header blockquote {
+	border-left: none;
+	font-size: 20px;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/*skills*/
+
+.skills{
+	background: url(../images/image3.jpg) center no-repeat;
+	text-align: center;
+	height: 100vh;
+	position: relative;
+	color: white;
+	font-family: Arial;
+}
+.skills blockquote{
+	border-left: none;
+	font-size: 20px;
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.skills h1{
+	font-size: 30px;
+	text-align: center;
+	font-weight: ;
+	margin: 0px auto;
+	padding-top: 30px;
+	
+}
+.skills h2{
+	font-size: 20px;
+	margin: 10px auto;
+	text-align: center;
+}
+.skills ul {
+	margin: 20px auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.skills ul li {
+	font-size: 20px;
+	list-style-type: none;
+	padding: 3px 20px;
+	color: black;
+}
+.skills h3 {
+	text-align: center;
+	font-size: 30px;
+}
+
+/*works*/
+
+.works{
+	background: url(../images/image1.jpg) center no-repeat;
+	position: relative;
+	height:100vh;
+	color: black;
+	text-align: center;
+	color: white;
+}
+.works h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: ;
+	margin: 0px auto;
+	padding-top: 30px;
+}
+.works.col-xs-4 img{
+	margin: 20px auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.works.col-xs-4 p{
+	font-family: Arial;
+	font-size: 18px;
+	list-style-type: none;
+	padding: 3px 20px;
+}
+/*contacts*/
+
+.contacts{
+	background: url(../images/image5.jpg) center no-repeat;
+	height: 75vh;
+	text-align: center;
+	position: relative;
+	color: white;
+}
+.contacts .col-md-4{
+	margin: 30px auto;
+}
+.cotacts h1{
+	margin: 0px auto;
+	padding-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.contacts a {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+.contacts img{
+	margin-bottom: 20px;
+	text-decoration: center;
+}
+
+.autor {
+	font-size: 16px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
